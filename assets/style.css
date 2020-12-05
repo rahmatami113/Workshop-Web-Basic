@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color:#1e266d;
+    text-align: center;
+    color: white;
+ }
+ nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+    text-align: center;
+    
+ }
+ nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+ }
+ nav a:hover {
+    font-weight: bold;
+ }
+ nav {
+    background-color:#1e266d;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+ }
+
+.navbar-text{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #1e266d;
+}
+.section-1{
+    margin-top: 64px;
+    text-align: center;
+    color: #1e266d;
+}
+.judul{
+    color: #1e266d;
+}
+.text-kecil{
+    color: #1e266d;
+}
+.tombol-biru{
+    background: #375ff3;
+    color: white;
+    border: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+.illustrasi-logo{
+    margin-top: 30px;
+    text-align: center;
+}
+.text-kecil-2{
+    margin-bottom: 40px;
+}
+.logo{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footer{
+    margin-top: 60px;
+    background:#1e266d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.judul-footer{
+    color: white;
+}
+
+.tombol-putih{
+    background: white;
+    color: #455880;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.profile header {
+    text-align: center;
+    color: #1e266d;
+ }
+ footer {
+    padding: 20px;
+    color: white;
+    background-color: #1e266d;
+    text-align: center;
+    font-weight: bold;
+ }
+ .profile img {
+    width: 550px;
+ }
+@media screen and (max-width: 100px) {
+  .navbar .section-1 .illustrasi-logo .kumpulan-logo{
+      float:left;
+      width:100%;
+  }
+}
+@media screen and (min-width: 720px) and (max-width:992px){
+    .navbar .section-1 .illustrasi-logo .kumpulan-logo{
+        float:left;
+        width:50%;
+    }
+}
+
